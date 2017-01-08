@@ -1,0 +1,36 @@
+﻿<Window x:Class="Biblioteka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="500" Width="800">
+    <Grid Margin="0,0,-8,1">
+        <Button x:Name="DKsiazke" Content="Dodaj Ksiazke" HorizontalAlignment="Left" Margin="41,21,0,0" VerticalAlignment="Top" Width="108" Height="28" Click="DKsiazke_Click"/>
+        <Button x:Name="DCzasopismo" Content="Dodaj Czasopismo" HorizontalAlignment="Left" Margin="41,71,0,0" VerticalAlignment="Top" Width="108" Height="26" Click="DCzasopismo_Click"/>
+        <Button x:Name="WPoId" Content="Wyszukaj po id" HorizontalAlignment="Left" Margin="41,111,0,0" VerticalAlignment="Top" Width="108" Height="24" Click="WPoId_Click"/>
+        <Button x:Name="WPoTytule" Content="Wyszukaj Po Tytule" HorizontalAlignment="Left" Margin="41,140,0,0" VerticalAlignment="Top" Width="108" Height="23" Click="WPoTytule_Click"/>
+        <Label x:Name="LImie" Content="Imie:" HorizontalAlignment="Left" Margin="437,22,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LNazwisko" Content="Nazwisko: " HorizontalAlignment="Left" Margin="437,50,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LTytul" Content="Tytul:" HorizontalAlignment="Left" Margin="437,87,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LId" Content="ID:" HorizontalAlignment="Left" Margin="437,125,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LRokWydania" Content="RokWydania: " HorizontalAlignment="Left" Margin="437,164,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LLiczbaStron" Content="Liczba Stron:" HorizontalAlignment="Left" Margin="437,192,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LNumer" Content="Numer:" HorizontalAlignment="Left" Margin="437,220,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TImie" HorizontalAlignment="Left" Height="23" Margin="527,22,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TNazwisko" HorizontalAlignment="Left" Height="23" Margin="527,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TTytul" HorizontalAlignment="Left" Height="23" Margin="527,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TId" HorizontalAlignment="Left" Height="23" Margin="527,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TRokWydania" HorizontalAlignment="Left" Height="23" Margin="527,164,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TLiczbaStron" HorizontalAlignment="Left" Height="23" Margin="527,192,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TNumer" HorizontalAlignment="Left" Height="23" Margin="527,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="LPodajTyul" Content="Podaj Tytul:" HorizontalAlignment="Left" Margin="41,186,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TPodajTytul" HorizontalAlignment="Left" Height="23" Margin="114,186,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="LPodajId" Content="Podaj id: " HorizontalAlignment="Left" Margin="41,214,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TPodajId" HorizontalAlignment="Left" Height="23" Margin="114,214,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="TOpis" HorizontalAlignment="Left" Margin="19,242,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="220" Width="402"/>
+        <Label x:Name="LWydawnictwo" Content="Wydawnictwo" HorizontalAlignment="Left" Margin="437,257,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.467,1.137"/>
+        <TextBox x:Name="TWydawnictwo" HorizontalAlignment="Left" Height="23" Margin="527,257,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Dodaj" Content="Dodaj" HorizontalAlignment="Left" Margin="514,298,0,0" VerticalAlignment="Top" Width="75" Click="Dodaj_Click"/>
+
+
+    </Grid>
+
+</Window>
